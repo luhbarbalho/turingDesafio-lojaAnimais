@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Brandon';
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x:hidden;
+}
+
+
+:root {
+--color_0: rgb(255,255,255);
+--color_2: rgb(0,0,0);
+--color_3: rgb(237,28,36);
+--color_4: rgb(0,136,203);
+--color_5: rgb(255,203,5);
+--color_6: rgb(232,230,230);
+--color_7: rgb(199,199,199);
+--color_8: rgb(176,176,176);
+--color_9: rgb(114,114,114);
+--color_10: rgb(237,233,222);
+--color_14: rgb(98,98,96);
+--color_16: rgb(186,190,222);
+--color_17: rgb(148,152,189);
+--color_18: rgb(43,51,123);
+--color_19: rgb(29,36,99);
+--color_20: rgb(22,26,62);
+--color_21: rgb(186,215,199);
+--color_22: rgb(144,175,157);
+--color_23: rgb(44,95,66);
+--color_24: rgb(31,77,50);
+--color_25: rgb(22,48,33);
+--color_27: rgb(191,177,149);
+--color_28: rgb(143,134,104);
+--color_29: rgb(94,85,66);
+--color_30: rgb(46,46,30);
+--color_31: rgb(228,206,173);
+--color_32: rgb(199,162,105);
+--color_33: rgb(163,104,10);
+--color_34: rgb(115,71,6);
+--color_35: rgb(73,45,4);
+}
+
+@font-face {
+    font-family: DinNextLight;
+    src: url(./fonts/Din-Next/DINNextW1G-Light.otf);
+}
+
+@font-face {
+    font-family: DinNextUltra;
+    src: url(./fonts/Din-Next/DINNextW1G-UltraLight.otf);
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(./fonts/Avenir/AvenirLTStd-Book.otf);
+}

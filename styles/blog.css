@@ -1,0 +1,158 @@
+
+.blog {
+    width: 100vw;
+    height: 1050px; /* ! 140vh */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog h4 {
+    font-family: 'Caudex';
+    color: var(--color_25);
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.instaPost {
+    width: 59vw;
+    height: 95vh; /* ! 721px */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color_10);
+}
+
+.instaPost img {
+    width: 100%;
+}
+
+.instaPostBottom {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0 10px 30px;
+}
+
+.user ion-icon {
+    font-size: 38px;
+    color: rgb(160,160,159);
+    margin-right: 10px;
+}
+
+.person p {
+    font-family: 'DinNextLight';
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+.post {
+    min-height: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 35px 10px 35px;
+}
+
+.post h5 {
+    margin-bottom: 16px;
+    font-family: 'Caudex';
+    font-size: 22px;
+    color: var(--color_20);
+}
+
+.post p {
+    font-family: 'Avenir';
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    color: var(--color_20);
+}
+
+.post h5:hover, .post p:hover {
+    cursor: pointer;
+    color: rgb(43,51,123);
+}
+
+.line {
+    width: 92.5%;
+    height: 1px;
+    margin: 0 35px;
+    background-color: var(--color_8);
+}
+
+.icons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+
+.iconsLeft {
+    width: 85px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.iconsLeft p {
+    font-family: 'DinNextUltra';
+    font-size: 13px;
+    margin: 0 16px 0 6px;
+    margin-top: 2px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.right p {
+    font-size: 13px;
+    margin-right: 8px;
+}
+
+.right ion-icon {
+    color: rgb(255, 30, 0);
+}
+
+.blog button {
+    width: 190px;
+    height: 50px;
+    margin-top: 60px;
+    border: 1px solid var(--color_18);
+    color: var(--color_0);
+    background-color: var(--color_18);
+    font-size: 16.5px;
+    font-family: 'Avenir';
+    transition: linear 0.15s;
+}
+
+.blog button:hover {
+    background-color: var(--color_23);
+    transition: linear 0.2s;
+    cursor: pointer;
+    border: 0.5px solid var(--color_23);
+}
+.blog button:focus {
+    outline: none;
+}
+
+body > .line {
+    width: 90%;
+    height: 2px;
+    margin: 10px 70px;
+    background-color: var(--color_24);
+}

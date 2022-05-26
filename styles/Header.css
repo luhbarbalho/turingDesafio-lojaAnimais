@@ -1,0 +1,105 @@
+
+header {
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    background-color: var(--color_0);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+}
+
+.topNav {
+    height: 50px;
+    justify-content: center;
+    color: var(--color_0);
+    background-color: var(--color_23);
+}
+
+.topNav p {
+    font-family: 'Avenir';
+    font-size: 14px;
+}
+
+.topNav a {
+    color: var(--color_0);
+    font-family: 'Avenir';
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 3px;
+}
+
+.bottomNav {
+    height: 100px;
+    justify-content: space-between;
+}
+
+.title {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title img {
+    width: 180px;
+    height: auto;
+}
+
+.title h1 {
+    font-family: 'caudex';
+    font-size: 16px;
+    color: var(--color_2);
+}
+
+.menu {
+    width: 600px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.menu p {
+    font-size: 17px;
+    color: var(--color_25);
+    margin-right: 25px;
+    font-family: 'Avenir';
+}
+
+.menu p:hover {
+    color: var(--color_23);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.menu button {
+    width: 110px;
+    height: 50px;
+    border: 1px solid var(--color_18);
+    color: var(--color_0);
+    background-color: var(--color_18);
+    font-size: 16.5px;
+    transition: linear 0.15s;
+}
+
+.menu button:hover {
+    background-color: var(--color_23);
+    transition: linear 0.2s;
+    cursor: pointer;
+    border: 0.5px solid var(--color_23);
+}
+.menu button:focus {
+    outline: none;
+}

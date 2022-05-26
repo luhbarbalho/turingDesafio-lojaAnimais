@@ -1,0 +1,59 @@
+
+.about {
+    width: 100vw;
+    height: 930px;
+    display: flex;
+}
+
+.sectionLeft {
+    width: 600px;
+    height: 930px;
+    background: url(../assets/vaquinhasfelizes.webp);
+    background-size: 600px 980px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sectionRight {
+    width: 59vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color_10);
+}
+
+.textBlock {
+    width: 470px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 7px;
+    padding: 8px 0;
+    border: 0.5px solid var(--color_25);
+    background-color: var(--color_0);
+    box-shadow: 0 0 5px 1px rgba(98, 98, 96, 0.3);;
+}
+
+.texts {
+    width: 370px;
+    height: 215px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.textBlock h4 {
+    font-size: 30px;
+    font-family: 'Caudex';
+    color: var(--color_23);
+    text-decoration: underline;
+}
+
+.textBlock p {
+    font-family: 'Avenir';
+    font-size: 16.5px;
+    line-height: 30px;
+}

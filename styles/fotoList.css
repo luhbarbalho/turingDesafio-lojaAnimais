@@ -1,0 +1,82 @@
+.fotoList {
+    width: 100vw;
+    height: 1050px; /* ! 140vh */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotoList h4 {
+    font-family: 'Caudex';
+    color: var(--color_25);
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.fotosTop {
+    width: 1340px;
+    height: 325px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: tomato;
+}
+
+.foto {
+    width: 325px;
+    height: 325px;
+    background-size: cover;
+    transition: transform .5s;
+    overflow: hidden;
+
+}
+
+.foto:hover{
+    transform: scale(1.1);
+}
+
+.f1 {
+    background-image: url(../assets/minininhaGalinha.webp); 
+
+}
+
+.f2 {
+    background-image: url(../assets/vaquinhaCampo.jpeg);
+}
+
+.f3 {
+    background-image: url(../assets/cuteGalinha.webp);
+}
+
+.f4 {
+    background-image: url(../assets/carneirinhoPulando.webp);
+}
+
+.fotosBottom {
+    width: 1340px;
+    height: 325px;
+    display: flex;
+    justify-content: space-around;
+    background-color: tomato;
+}
+
+.f5 {
+    background-image: url(../assets/porquinhoFeliz.webp);
+}
+
+.f6 {
+    background-image: url(../assets/guy+Carneirinho.webp);
+}
+
+.f7 {
+    background-image: url(../assets/vaquinhasMae&Baby.webp);
+}
+
+.f7:hover {
+
+}
+
+.f8 {
+    background-image: url(../assets/porquinhosCampo.jpeg);
+}
