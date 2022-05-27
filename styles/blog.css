@@ -17,7 +17,7 @@
 
 .instaPost {
     width: 59vw;
-    min-height: 721px; /* ! 95vh */
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,15 +30,16 @@
 }
 
 .instaPostBottom {
-    height: 60%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 
 .user {
     width: 100%;
-    height: 55px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -58,7 +59,7 @@
 }
 
 .post {
-    min-height: 114px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +85,7 @@
     color: rgb(43,51,123);
 }
 
-.line {
+.line-blog {
     width: 92.5%;
     height: 1px;
     margin: 0 35px;
@@ -157,7 +158,7 @@ body > .line {
     background-color: var(--color_24);
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     
     .blog {
         width: 100vw;
@@ -167,29 +168,65 @@ body > .line {
     .instaPost {
         height: 560px;
     }
-}
+} */
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     
     .blog {
-        height: 850px;
+        height: 810px;
     }
     
-    .instaPost {
-        height: 560px;
-        min-height: 552px;
+    .user {
+        padding: 10px 0 10px 21px;
     }
     
     .post {
-        padding: 10px 23px 10px 35px;
+        padding: 10px 25px 10px 25px;
     }
     
-    .line {
-        width: 83%;
+    .icons {
+        padding: 10px 25px 10px 25px;
+    }
+    
+    .line-blog {
+        width: 90%;
+        margin: 0 25px;
     }
     
     .blog button {
         width: 170px;
         height: 45px;
+    }
+}
+
+@media (max-width: 415px) {
+    .blog {
+        height: 750px;
+    }
+/*     
+    .instaPost {
+        min-height: 400px;
+    } */
+    
+    .line-blog {
+        margin: 0 10px;
+    }
+    
+    .user {
+        height: auto;
+        padding: 10px 0 10px 10px;
+    }
+    
+    .post {
+        height: auto;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .icons {
+        padding: 0 13px;
+    }
+    
+    body > .line {
+        width: 65vw;
     }
 }

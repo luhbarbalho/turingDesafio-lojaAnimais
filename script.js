@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function(event) {
     document.addEventListener("scroll", function(event) {
-        const animatedFotos = document.getElementsByClassName("fotos");
+        const animatedFotos = document.getElementsByClassName("foto");
         const windowOffsetTop = window.innerHeight + window.scrollY;
 
         Array.prototype.forEach.call(animatedFotos, (animatedBox) => {

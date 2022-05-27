@@ -101,3 +101,20 @@
     }
 
 }
+
+
+@media (max-width: 415px) {
+    .about {
+        width: 100vw;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sectionLeft {
+        display: flex;
+        background-size: 415px 500px;
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+    }
+}

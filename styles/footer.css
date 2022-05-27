@@ -225,7 +225,8 @@ input:focus {
     }
     
     .footerLeft {
-        padding-left: 100px;
+        padding: 0;
+        align-items: center;
     }
     
     .footerMiddle {

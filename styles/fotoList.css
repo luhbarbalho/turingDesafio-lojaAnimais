@@ -25,6 +25,13 @@
     flex-wrap: wrap;
 }
 
+.foto {
+    width: 285px;
+    height: 285px;
+    margin: 5px;
+    overflow: hidden;
+}
+
 .fade-in {
     animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
@@ -38,13 +45,6 @@
         transform: translateY(0);
         opacity: 1;
     }
-}
-
-.foto {
-    width: 285px;
-    height: 285px;
-    margin: 5px;
-    overflow: hidden;
 }
 
 .foto img {
@@ -85,9 +85,9 @@
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
     .fotoList {
-        height: 340vh;
+        height: 300vh;
     }
     
     .fotos {
@@ -102,5 +102,15 @@
     .foto img {
         width: 350px;
         height: 350px;
+    }
+}
+
+@media (max-width: 415px) {
+    .fotoList {
+        height: 430vh;
+    }
+    
+    .fotos {
+        width: 88vw;
     }
 }
