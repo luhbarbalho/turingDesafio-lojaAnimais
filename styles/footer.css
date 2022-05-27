@@ -1,29 +1,24 @@
 footer {
     width: 100vw;
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-
+    background-color: var(--color_23);
 }
 
 .greenPart {
     width: 100vw;
-    height: 555px;
     display: flex;
     flex-direction: row;
     padding-top: 80px;
     justify-content: space-around;
-    background-color: var(--color_23);
+    flex-wrap: wrap;
 }
 
 .footerLeft {
-    width: 250px;
+    width: 400px;
     height: 400px;
     padding: 10px 0 0 35px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-right: 50px;
 }
 
 .footerLeft .title {
@@ -65,12 +60,12 @@ footer {
 /** FOOTER MIDDLE **/
 
 .footerMiddle {
-    width: 260px;
+    width: 400px;
     height: 260px;
+    margin: 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-right: 50px;
 }
 
 h5 {
@@ -95,11 +90,14 @@ h3 {
     font-size: 18px;
 }
 
-.footerMiddle .line {
-    width: 92.5%;
-    height: 1.2px;
-    margin: 28px 0 10px 0;
-    background-color: var(--color_8);
+.footerMiddle > div {
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerMiddle input {
+    
 }
 
 .footerMiddle button {
@@ -128,22 +126,33 @@ h3 {
 /** FOOTER LAST **/
 
 .footerLast {
-    width: 330px;
-    height: 426px;
+    width: 400px;
+    height: auto;
+    margin: 40px 0;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: space-evenly;
-    margin-right: 50px;
+}
+
+.footerLast h3 {
+    margin: 15px 0 23px 0;
+}
+
+form {
+    width: 100%;
 }
 
 .inputs {
-    height: 86px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .inputs > div {
-    width: 155px;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -158,6 +167,7 @@ label {
     font-family: 'Avenir';
     letter-spacing: 0.6px;
     line-height: 26px;
+    margin-right: 27px;
 }
 
 input {
@@ -165,7 +175,8 @@ input {
     border: none;
     border-bottom: 0.7px solid var(--color_10);
     background-color: var(--color_23);
-    margin-bottom: 7px;
+    margin-bottom: 15px;
+    margin-right: 27px;
 }
 
 input:focus {
@@ -200,8 +211,37 @@ input:focus {
 
 /* ? PARTE DO FOOTER BRANCA ************/
 
-
-.whitePart {
-    height: 300px;
-    background-color: aquamarine; 
+@media (max-width: 1200px) {
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .greenPart {
+        width: 67vw;
+        height: auto;
+    }
+    
+    .footerLeft {
+        padding-left: 100px;
+    }
+    
+    .footerMiddle {
+        align-items: center;
+    }
+    
+    .footerLast {
+        align-items: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .message {
+        width: 375px;
+    }
 }

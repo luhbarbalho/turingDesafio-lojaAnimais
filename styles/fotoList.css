@@ -1,6 +1,6 @@
 .fotoList {
     width: 100vw;
-    height: 920px; /* ! 140vh */
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,19 +11,19 @@
     font-family: 'Caudex';
     color: var(--color_25);
     font-size: 32px;
-    margin: 40px 0;
+    margin-bottom: 30px;
 }
-
 
 /** Animação das fotos (subindo) **/
 
 .fotos{
-    width: 1340px;
-    height: 325px;
-    margin-bottom: 10px;
+    width: 89vw;
+    max-width: 1300px;
+    height: auto;
     display: flex;
-    justify-content: space-around;
-    }
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .fade-in {
     animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -41,17 +41,66 @@
 }
 
 .foto {
-    width: 325px;
-    height: 325px;
+    width: 285px;
+    height: 285px;
+    margin: 5px;
     overflow: hidden;
 }
 
 .foto img {
-    width: 325px;
-    height: 325px;
+    width: 285px;
+    height: 285px;
     transition: transform 1s ease;
 }
 
 .foto img:hover {
     transform: scale(1.05);
+}
+
+
+
+@media (max-width: 1320px) {
+    .fotoList {
+        height: 80vh;
+    }
+    
+    .foto {
+        width: 240px;
+        height: 240px;
+    }
+    
+    .foto img {
+        width: 240px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 1124px) {
+    .fotoList {
+        height: 140vh;
+    }
+    
+    .fotos {
+        width: 67vw;
+    }
+}
+
+@media (max-width: 770px) {
+    .fotoList {
+        height: 340vh;
+    }
+    
+    .fotos {
+        width: 66vw;
+    }
+    
+    .foto {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .foto img {
+        width: 350px;
+        height: 350px;
+    }
 }

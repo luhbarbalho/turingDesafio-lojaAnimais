@@ -1,7 +1,7 @@
 
 header {
     width: 100vw;
-    height: 150px;
+    height: 140px;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -43,7 +43,7 @@ nav div {
 }
 
 .bottomNav {
-    height: 100px;
+    height: 90px;
     justify-content: space-between;
 }
 
@@ -102,4 +102,39 @@ nav div {
 }
 .menu button:focus {
     outline: none;
+}
+
+
+@media (max-width: 768px) {
+    
+    nav {
+        padding: 0 20px;
+    }
+    
+    .title {
+        width: 140px;
+    }
+    
+    .title img {
+        width: 140px;
+        height: auto;
+    }
+    
+    .title h1 {
+        display: none;
+    }
+    
+    .menu {
+        width: 430px;
+    }
+    
+    .menu p {
+        font-size: 14.6px;
+        margin-right: 15px;
+    }
+    
+    .menu button {
+        width: 85px;
+        height: 45px;
+    }
 }
