@@ -1,0 +1,207 @@
+footer {
+    width: 100vw;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.greenPart {
+    width: 100vw;
+    height: 555px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    justify-content: space-around;
+    background-color: var(--color_23);
+}
+
+.footerLeft {
+    width: 250px;
+    height: 400px;
+    padding: 10px 0 0 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 50px;
+}
+
+.footerLeft .title {
+    width: 200px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeft .title img {
+    width: 180px;
+    height: auto;
+}
+
+.footerLeft .title h1 {
+    font-family: 'caudex';
+    font-size: 16px;
+    color: var(--color_0);
+}
+
+.adress {
+    margin-bottom: 30px;
+}
+
+.hours > p:first-child {
+    font-family: 'AvenirBlack';
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.adress > p, .hours > p {
+    font-size: 16px;
+    color: var(--color_0);
+    font-family: 'Avenir';
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+/** FOOTER MIDDLE **/
+
+.footerMiddle {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+
+h5 {
+    font-family: 'caudex';
+    font-size: 30px;
+    color: var(--color_0);
+}
+
+.footerMiddle p {
+    font-size: 16px;
+    color: var(--color_0);
+    font-family: 'Avenir';
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+h3 {
+    color: var(--color_0);
+    font-family: 'AvenirBlack';
+    margin-bottom: 7px;
+    letter-spacing: 0.6px;
+    font-size: 18px;
+}
+
+.footerMiddle .line {
+    width: 92.5%;
+    height: 1.2px;
+    margin: 28px 0 10px 0;
+    background-color: var(--color_8);
+}
+
+.footerMiddle button {
+    width: 180px;
+    height: 45px;
+    padding-top: 5px;
+    border: 1px solid var(--color_10);
+    color: var(--color_23);
+    background-color: var(--color_10);
+    font-family: 'Avenir';
+    font-size: 16.5px;
+    transition: linear 0.2s;
+}
+
+.footerMiddle button:hover {
+    color: var(--color_10);
+    background-color: var(--color_23);
+    transition: linear 0.3s;
+    cursor: pointer;
+    border: 0.5px solid var(--color_10);
+}
+.footerMiddle button:focus {
+    outline: none;
+}
+
+/** FOOTER LAST **/
+
+.footerLast {
+    width: 330px;
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+
+.inputs {
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs > div {
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    width: 328px;
+}
+
+label {
+    font-size: 16px;
+    color: var(--color_0);
+    font-family: 'Avenir';
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+input {
+    height: 45px;
+    border: none;
+    border-bottom: 0.7px solid var(--color_10);
+    background-color: var(--color_23);
+    margin-bottom: 7px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid white;
+    background-color: var(--color_11);
+}
+
+.footerLast button {
+    width: 180px;
+    height: 45px;
+    padding-top: 5px;
+    border: 1px solid var(--color_10);
+    color: var(--color_23);
+    background-color: var(--color_10);
+    font-family: 'Avenir';
+    font-size: 16.5px;
+    transition: linear 0.2s;
+}
+
+.footerLast button:hover {
+    color: var(--color_10);
+    background-color: var(--color_23);
+    transition: linear 0.3s;
+    cursor: pointer;
+    border: 0.5px solid var(--color_10);
+}
+.footerLast button:focus {
+    outline: none;
+}
+
+
+/* ? PARTE DO FOOTER BRANCA ************/
+
+
+.whitePart {
+    height: 300px;
+    background-color: aquamarine; 
+}

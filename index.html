@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- *Tags OPEN GRAPH -->
+    
+        <meta property="og:description" content="Um lindo site para abrigo de animais para prática de HTML e CSS do alphaedtech.">
+        <meta property="og:title" content="Happy Farm Sanctuary">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://luhbarbalho.github.io/turingDesafio-lojaAnimais/">
+        <meta property="og:image" content="https://christmashq.com/assets/images/designs/backgrounds/closeup-of-christmas-tree-branches-with-red-ornaments-blurred-background.jpg">
+        
+        <!-- *Tags OPEN GRAPH -->
+        
+    <!-- *Links CSS -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/blog.css">
     <link rel="stylesheet" href="./styles/fotoList.css">
-    <title>Abrigo de Animais</title>
+    <link rel="stylesheet" href="./styles/footer.css">
+    <!-- *Links CSS -->
+    
+    <title>Happy Farm Sanctuary</title>
 </head>
 <body>
     <header>
@@ -120,41 +135,121 @@
     <div class="line"></div>
 
     <section class="fotoList">
-        <h4>From Our Blog</h4>
+        <h4>Around the Farm</h4>
 
-        <div class="fotosTop">
-            <div class="foto f1">
+        <div class="fotos">
+            <div class="foto">
+                <img src="./assets/minininhaGalinha.webp" alt="">
             </div>
 
-            <div class="foto f2">
+            <div class="foto">
+                <img src="./assets/vaquinhanocampo.png" alt="">
             </div>
 
-            <div class="foto f3">
+            <div class="foto">
+                <img src="/assets/cuteGalinha.webp" alt="">
             </div>
 
-            <div class="foto f4">
-            </div>
-        </div>
-
-        <div class="fotosBottom">
-
-            <div class="foto f5">
-            </div>
-
-            <div class="foto f6">
-            </div>
-
-            <div class="foto f7">
-            </div>
-
-            <div class="foto f8">
+            <div class="foto">
+                <img src="./assets/carneirinhoPulando.webp" alt="">
             </div>
         </div>
 
+        <div class="fotos">
 
+            <div class="foto">
+                <img src="./assets/porquinhoFeliz.webp" alt="">
+            </div>
+
+            <div class="foto">
+                <img src="./assets/guy+Carneirinho.webp" alt="">
+            </div>
+
+            <div class="foto">
+                <img src="./assets/vaquinhasMae&Baby.webp" alt="">
+            </div>
+
+            <div class="foto">
+                <img src="./assets/porquinhosCampo.jpeg" alt="">
+            </div>
+        </div>
     </section>
+    <footer>
+        <div class="greenPart">
+            <div class="footerLeft">
+                <div class="title">
+                    <img src="./assets/happyFarmSanctuary.webp" alt="Logo">
+                    <h1>
+                        Happy Farm Sanctuary
+                    </h1>
+                </div>
+                <div class="adress">
+                    <p>500 Terry Francois Street</p>
+                    <p>San Francisco, CA 94158</p>
+                    <p>info@mysite.com</p>
+                    <p>123-456-7890</p>
+                </div>
+                <div class="hours">
+                    <p>Opening Hours:</p>
+                        
+                    <p>Mon - Fri: 8am - 8pm</p>
+                    <p>Saturday: 9am - 7pm</p>
+                    <p>Sunday: 9am - 8pm</p>
+                </div>
+            </div>
+
+            <div class="footerMiddle">
+
+                <h5>Stay Up to Date</h5>
+
+                <h3>Subscribe to our newsletter</h3>
+
+                <p>Enter your email here *</p>
+                <div class="line"></div>
+                <button>Join</button>
+
+            </div>
+            <div class="footerLast">
+                <h5>Contact Us</h5>
+                <h3>For more information, reach out</h3>
+                <form>
+                    <div class="inputs">
+                        <div>
+                            <label id="nameFirst">First Name</label>
+                            <input type="text" for="nameFirst">
+                        </div>
+                        <div>
+                            <label id="nameLast">Last Name</label>
+                            <input type="text" for="nameLast">
+                        </div>
+                    </div>
+                    <div class="inputs">
+                        <div>
+                            <label id="email">Email *</label>
+                            <input type="email" for="email">
+                        </div>
+                        <div>
+                            <label id="subject">Subject</label>
+                            <input type="text" for="subject">
+                        </div>
+                    </div>
+                    <div class="inputs">
+                        <div>
+                            <label id="message">Message *</label>
+                            <input class="message" type="text" for="Message">
+                        </div>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="whitePart">
+        
+        </div>
+    </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

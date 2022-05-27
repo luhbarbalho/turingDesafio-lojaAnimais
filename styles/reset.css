@@ -115,6 +115,7 @@ body {
 --color_8: rgb(176,176,176);
 --color_9: rgb(114,114,114);
 --color_10: rgb(237,233,222);
+--color_11: rgb(254,64,65);
 --color_14: rgb(98,98,96);
 --color_16: rgb(186,190,222);
 --color_17: rgb(148,152,189);
@@ -150,4 +151,9 @@ body {
 @font-face {
     font-family: Avenir;
     src: url(./fonts/Avenir/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+    font-family: AvenirBlack;
+    src: url(./fonts/Avenir/AvenirLTStd-Black.otf);
 }

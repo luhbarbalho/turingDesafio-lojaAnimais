@@ -1,6 +1,6 @@
 .fotoList {
     width: 100vw;
-    height: 1050px; /* ! 140vh */
+    height: 920px; /* ! 140vh */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,72 +11,47 @@
     font-family: 'Caudex';
     color: var(--color_25);
     font-size: 32px;
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 
-.fotosTop {
+
+/** Animação das fotos (subindo) **/
+
+.fotos{
     width: 1340px;
     height: 325px;
     margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
-    background-color: tomato;
+    }
+
+.fade-in {
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .foto {
     width: 325px;
     height: 325px;
-    background-size: cover;
-    transition: transform .5s;
     overflow: hidden;
-
 }
 
-.foto:hover{
-    transform: scale(1.1);
-}
-
-.f1 {
-    background-image: url(../assets/minininhaGalinha.webp); 
-
-}
-
-.f2 {
-    background-image: url(../assets/vaquinhaCampo.jpeg);
-}
-
-.f3 {
-    background-image: url(../assets/cuteGalinha.webp);
-}
-
-.f4 {
-    background-image: url(../assets/carneirinhoPulando.webp);
-}
-
-.fotosBottom {
-    width: 1340px;
+.foto img {
+    width: 325px;
     height: 325px;
-    display: flex;
-    justify-content: space-around;
-    background-color: tomato;
+    transition: transform 1s ease;
 }
 
-.f5 {
-    background-image: url(../assets/porquinhoFeliz.webp);
-}
-
-.f6 {
-    background-image: url(../assets/guy+Carneirinho.webp);
-}
-
-.f7 {
-    background-image: url(../assets/vaquinhasMae&Baby.webp);
-}
-
-.f7:hover {
-
-}
-
-.f8 {
-    background-image: url(../assets/porquinhosCampo.jpeg);
+.foto img:hover {
+    transform: scale(1.05);
 }
