@@ -4,7 +4,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.3), rgba(36, 42, 53, 0.3)),url(../assets/HappyGirlSheep.webp);
+    background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.3), rgba(36, 42, 53, 0.3)),url(../assets/HappyGirlSheep.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
